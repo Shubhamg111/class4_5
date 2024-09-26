@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mystore Official Website</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./images/logo.png">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CDN link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- cdn for owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-danger-subtle">
+
+    <!-- start of header -->
+    <header class="bg-info" id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo Image" width="70px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./products.html">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cart.html">Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-pill bg-secondary border-0" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger rounded-circle" type="submit"><i
+                                class="bi bi-search"></i></button>
+                    </form>
+
+
+                    <div class="btns">
+                        <a href="./login.html" class="btn btn-success mx-3">Login</a>
+                        <a href="./signup.html" class="btn btn-warning">Register</a>
+            
+                      </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end of header -->
+
+
+    <!-- start of main -->
+    <main>
+
+        <div class="productdetails container my-5 p-3 bg-light shadow rounded-3" id="productdetails">
+            <div class="d-flex">
+                <div class="col-md-10 p-3 d-flex justify-content-evenly">
+                    <div class="image col-md-5">
+                        <img src="./images/p3.jpg" alt="product image" width="100%">
+                    </div>
+                    <div class="imgdetails col-md-6">
+                        <a href="./index.html">Home</a> /
+                        <a href="./products.html"> Products</a> /
+                        <span> Foundation</span>
+
+                        <h2 class="text-dark mt-3 mb-0">Foundation</h2>
+                        <small class="text-secondary m-0">Makeup</small>
+
+                        <h4 class="my-4">Price : <span class="text-success">$300</span></h4>
+                        <h4>Quantity</h4>
+                        <div class="qty d-flex w-25 border rounded">
+                            <button class="btn btn-secondary">-</button>
+                            <input type="text" value="1" class="form-control text-center border-0" readonly>
+                            <button class="btn btn-secondary">+</button>
+                        </div>
+
+                        <p class="text-warning my-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="btn btn-danger px-1 py-0"><i class="bi bi-eye-fill"></i>150</span>
+                        </p>
+
+                        <div class="d-flex justify-content-evenly">
+                            <button class="btn btn-warning">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+            <h4>Description</h4>
+            <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam natus explicabo
+                sit? Tempore, minima ratione vero quis unde veritatis architecto ex? Omnis amet maiores dolores tempore
+                iste eos, in modi esse tempora quasi explicabo sequi doloremque quisquam atque. Iure vitae nemo neque
+                labore. Ducimus voluptatum quae reiciendis debitis laboriosam necessitatibus culpa autem architecto
+                voluptatibus nostrum cumque ipsam corporis aliquam aliquid nulla id, iure dolores, beatae officiis
+                soluta obcaecati omnis. Fugit officiis totam nulla molestiae repellendus aspernatur eligendi, optio
+                commodi nam voluptates deleniti facilis nihil tempore perspiciatis assumenda inventore laborum minus
+                ratione! Ad est ab aperiam eius architecto praesentium, quidem autem odio dolorem, perspiciatis illo
+                adipisci laboriosam corrupti mollitia, atque quaerat? Ea, soluta maiores. Fuga ab rem odio totam
+                consequuntur velit accusamus ducimus vero, voluptatum sit aperiam porro unde nostrum tempore tempora
+                modi ullam esse maiores! Reiciendis, ipsa alias, adipisci officiis hic perferendis repellendus corporis
+                ullam fugiat voluptas ad ipsam facere minima maxime porro ratione pariatur facilis provident repellat.
+                Maxime, magnam. Voluptates quo, omnis labore expedita itaque exercitationem veritatis dignissimos sit
+                dolores, totam mollitia voluptate suscipit rem atque quibusdam, illum consequuntur. Suscipit, tempora
+                quibusdam quas dolor harum esse </p>
+        </div>
+
+
+    </main>
+    <!-- end of main -->
+
+
+    <!-- start of footer -->
+    <footer class="py-5 px-4">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <!-- CDN js for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

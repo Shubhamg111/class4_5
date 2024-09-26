@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+#header input:focus{
+    box-shadow:0px 0px 10px black ;
+    border: none;
+    outline: none;
+    background: rgb(173, 172, 172) !important;
+    transition: 0.5s;
+}
+
+
+#header input:focus::placeholder{
+    color:rgb(177, 8, 8) ;
+}
+
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+    height: 100%;
+}
+
+.imagedetails{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 300px;
+}
+
+.card{
+    
+    height: max-content !important;
+}
+
+.card img{
+   width: 100% !important;
+    height: 200px !important;
+}
+
+.card .card-body{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+.button{
+    opacity: 0% !important;
+} 
+.owl-carousel{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.owl-carousel img{
+    width: 150px !important;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.owl-carousel img:hover{
+    filter: grayscale(0%);
+}
+
+
+footer{
+    background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
+}
+
+footer {
+    color: white !important;
+}
+
+#products li{
+    list-style-type: none;
+}
